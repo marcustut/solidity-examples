@@ -1,0 +1,26 @@
+{
+  "name": "ethers-simple-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol",
+    "deploy": "ts-node deploy.ts",
+    "generate": "ts-node encryptKey.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.8",
+    "fs-extra": "^10.1.0",
+    "solc": "0.8.14-fixed"
+  }
+}
