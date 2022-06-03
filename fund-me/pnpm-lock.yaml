@@ -1,0 +1,13 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@chainlink/contracts': ^0.4.1
+
+dependencies:
+  '@chainlink/contracts': 0.4.1
+
+packages:
+
+  /@chainlink/contracts/0.4.1:
+    resolution: {integrity: sha512-eC8biY6Ks8k9kZKVt5305veCP3z57yyiy6Os5aR6auta6Bp34xWQ/s4qvrifcW4FNgWw1HJPwMPXDGfiehcLjg==}
+    dev: false
